@@ -147,6 +147,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _body: {fileID: 4995210494352034430}
-  _explosionRadius: 2
-  _explosionForce: 40
+  _explosionRadius: 1
+  _explosionForce: 9
   _lifeTime: 7

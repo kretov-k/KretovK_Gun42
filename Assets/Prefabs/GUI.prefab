@@ -297,13 +297,48 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4419554776735085920, guid: 6a3a84cb85f3c9b4ea0e6bf4afbe85a3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -4.479999
+      objectReference: {fileID: 0}
+    - target: {fileID: 9050976356798625104, guid: 6a3a84cb85f3c9b4ea0e6bf4afbe85a3, type: 3}
+      propertyPath: m_Volume
+      value: 0.024
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 3783190574924217990, guid: 6a3a84cb85f3c9b4ea0e6bf4afbe85a3, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1301054210012150669}
   m_SourcePrefab: {fileID: 100100000, guid: 6a3a84cb85f3c9b4ea0e6bf4afbe85a3, type: 3}
 --- !u!224 &5010867827798215789 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 1030244342643157723, guid: 6a3a84cb85f3c9b4ea0e6bf4afbe85a3, type: 3}
   m_PrefabInstance: {fileID: 5460056515824150198}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &9171180077066999856 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3783190574924217990, guid: 6a3a84cb85f3c9b4ea0e6bf4afbe85a3, type: 3}
+  m_PrefabInstance: {fileID: 5460056515824150198}
+  m_PrefabAsset: {fileID: 0}
+--- !u!111 &1301054210012150669
+Animation:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9171180077066999856}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 0}
+  m_Animations:
+  - {fileID: 7400000, guid: e72303f59bae83544ac80a39b6c54f39, type: 2}
+  - {fileID: 7400000, guid: 3a17385c6351ddc428bddffdd0e674b9, type: 2}
+  - {fileID: 7400000, guid: 1a4e899f710687e45ab8c8aa609c3525, type: 2}
+  - {fileID: 7400000, guid: 4f13d84de40e9d44abf0e1bcec7c9af7, type: 2}
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
